@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, sans-serif; fill: #111827; }
+      .step-title { font: 700 16px Arial, sans-serif; fill: #111827; }
+      .step-sub { font: 400 14px Arial, sans-serif; fill: #1f2937; }
+      .box { fill: #e8f1ff; stroke: #1f2937; stroke-width: 2; rx: 12; ry: 12; }
+      .arrow { stroke: #1f2937; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="420" fill="#f8fafc" />
+  <text x="800" y="56" text-anchor="middle" class="title">Machine Learning Methodology Diagram - Lab 2</text>
+
+  <rect class="box" x="30" y="140" width="170" height="120" />
+  <text x="115" y="182" text-anchor="middle" class="step-title">1. Dataset</text>
+  <text x="115" y="206" text-anchor="middle" class="step-sub">Selection</text>
+  <text x="115" y="228" text-anchor="middle" class="step-sub">(UCI Iris)</text>
+
+  <rect class="box" x="220" y="140" width="170" height="120" />
+  <text x="305" y="182" text-anchor="middle" class="step-title">2. Data</text>
+  <text x="305" y="206" text-anchor="middle" class="step-sub">Loading</text>
+  <text x="305" y="228" text-anchor="middle" class="step-sub">(Pandas)</text>
+
+  <rect class="box" x="410" y="140" width="170" height="120" />
+  <text x="495" y="182" text-anchor="middle" class="step-title">3. Data</text>
+  <text x="495" y="206" text-anchor="middle" class="step-sub">Inspection</text>
+  <text x="495" y="228" text-anchor="middle" class="step-sub">(shape/head/dtypes)</text>
+
+  <rect class="box" x="600" y="140" width="170" height="120" />
+  <text x="685" y="182" text-anchor="middle" class="step-title">4. Data</text>
+  <text x="685" y="206" text-anchor="middle" class="step-sub">Preprocessing</text>
+  <text x="685" y="228" text-anchor="middle" class="step-sub">(cleaning/encoding)</text>
+
+  <rect class="box" x="790" y="140" width="170" height="120" />
+  <text x="875" y="182" text-anchor="middle" class="step-title">5. Train/Test</text>
+  <text x="875" y="206" text-anchor="middle" class="step-sub">Split</text>
+
+  <rect class="box" x="980" y="140" width="170" height="120" />
+  <text x="1065" y="182" text-anchor="middle" class="step-title">6. Model</text>
+  <text x="1065" y="206" text-anchor="middle" class="step-sub">Training</text>
+
+  <rect class="box" x="1170" y="140" width="170" height="120" />
+  <text x="1255" y="182" text-anchor="middle" class="step-title">7. Model</text>
+  <text x="1255" y="206" text-anchor="middle" class="step-sub">Evaluation</text>
+
+  <rect class="box" x="1360" y="140" width="210" height="120" />
+  <text x="1465" y="182" text-anchor="middle" class="step-title">8. Results &amp;</text>
+  <text x="1465" y="206" text-anchor="middle" class="step-sub">Conclusion</text>
+
+  <line class="arrow" x1="200" y1="200" x2="218" y2="200" />
+  <line class="arrow" x1="390" y1="200" x2="408" y2="200" />
+  <line class="arrow" x1="580" y1="200" x2="598" y2="200" />
+  <line class="arrow" x1="770" y1="200" x2="788" y2="200" />
+  <line class="arrow" x1="960" y1="200" x2="978" y2="200" />
+  <line class="arrow" x1="1150" y1="200" x2="1168" y2="200" />
+  <line class="arrow" x1="1340" y1="200" x2="1358" y2="200" />
+</svg>
